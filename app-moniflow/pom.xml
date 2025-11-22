@@ -11,7 +11,8 @@
 	<groupId>com.moniflow</groupId>
 	<artifactId>app-moniflow</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>app-moniflow</name>
+    <packaging>pom</packaging>
+    <name>app-moniflow</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,13 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>boostrap</module>
+        <module>application</module>
+        <module>domain</module>
+        <module>infraestructure</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
